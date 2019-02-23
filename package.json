@@ -11,7 +11,8 @@
     "lint": "eslint --ext .js,.vue src",
     "test": "npm run lint",
     "precommit": "lint-staged",
-    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
+    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
+    "deploy": "bash deploy.sh"
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [
@@ -54,6 +55,7 @@
     "sortablejs": "1.7.0",
     "tui-editor": "1.2.7",
     "vue": "2.5.17",
+    "vue-analytics": "5.16.0",
     "vue-count-to": "1.0.13",
     "vue-i18n": "7.3.2",
     "vue-router": "3.0.2",
